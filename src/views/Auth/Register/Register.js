@@ -1,17 +1,17 @@
-import {mapGetters} from 'vuex';
+import { mapGetters } from 'vuex';
 import BannerComponent from "../BannerComponent.vue"
 import axios from 'axios'
 import url from '../../../url'
 export default {
-    components: {
-      'banner-component': BannerComponent
-    },
-    data(){
-    return{
+  components: {
+    'banner-component': BannerComponent
+  },
+  data() {
+    return {
       errorAlert: false,
       error: '',
       loading: false,
-      register:true,
+      register: true,
       show1: false,
       full_name: '',
       phone_number: '',
@@ -19,27 +19,27 @@ export default {
       password: '',
       bvn: ''
     }
-},
-computed: {
+  },
+  computed: {
 
-},
+  },
 
-    methods: {
-    async Register(){
+  methods: {
+    async Register() {
 
-       const full_name = this.full_name;
-       const email_address = this.email_address;
+      const full_name = this.full_name;
+      const email_address = this.email_address;
       const phone_number = this.phone_number;
       const bvn = this.bvn;
       const password = this.password
 
-       const resData = {
+      const resData = {
         "full_name": full_name,
         "email_address": email_address,
         "phone_number": phone_number,
         "bvn": bvn,
         "password": password
-    }
+      }
 
 
       try {
@@ -54,8 +54,8 @@ computed: {
         this.error = error.response.data.error;
       }
 
-     }
-}
+    }
+  }
 
 }
 

@@ -30,7 +30,7 @@ export default {
 		};
 	},
 	methods: {
-	
+
 		closeInfo() {
 			this.accountDetails.accNumber = '';
 			this.warning = false;
