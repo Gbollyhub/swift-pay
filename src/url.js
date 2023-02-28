@@ -1,4 +1,4 @@
 
-const url = "https://web-spiralapp.herokuapp.com";
+const url = "https://web-spiral.herokuapp.com";
 
 export default url
