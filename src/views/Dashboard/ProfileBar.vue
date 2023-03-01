@@ -28,26 +28,26 @@
       <v-text-field
         style="font-size: 14px"
         color="#1b1b1b"
-        v-model="(myData.first_name = getUser.full_name)"
+        v-model="getUser.full_name"
         placeholder="First Name"
       ></v-text-field>
       <v-text-field
         style="font-size: 14px"
         color="#1b1b1b"
-        v-model="(myData.email_address = getUser.email_address)"
+        v-model="getUser.email_address"
         placeholder="Email Address"
         readonly
       ></v-text-field>
       <v-text-field
         style="font-size: 14px"
         color="#1b1b1b"
-        v-model="(myData.phone_number = getUser.phone_number)"
+        v-model="getUser.phone_number"
         placeholder="Phone Number"
       ></v-text-field>
       <v-text-field
         style="font-size: 14px"
         color="#1b1b1b"
-        v-model="(myData.bvn = getUser.bvn)"
+        v-model="getUser.bvn"
         placeholder="Bvn"
       ></v-text-field>
       <!-- <v-text-field v-show="false"  style="font-size:14px;"  color="#1b1b1b" v-model="myData.user_id = getUserDetailFromStore.id" :type="'hidden'" placeholder=""></v-text-field> -->

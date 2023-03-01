@@ -24,6 +24,10 @@
           <span style="text-transform: uppercase">{{
             getUser.account_number
           }}</span>
+          | Wallet PIN :
+          <span style="text-transform: uppercase">{{
+            getUser.account_pin
+          }}</span>
         </p>
       </div>
       <v-btn

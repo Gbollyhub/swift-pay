@@ -16,7 +16,7 @@
 
     <v-btn
       depressed
-      style="font-weight: 700; font-size: 14px"
+      style="font-weight: 700; font-size: 13px"
       dark
       block
       color="#F5A623"
@@ -146,7 +146,7 @@ export default {
   letter-spacing: 1px;
   color: #adb0b4;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
   text-decoration: none;
 }
 

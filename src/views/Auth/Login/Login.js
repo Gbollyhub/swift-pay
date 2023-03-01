@@ -13,8 +13,8 @@ export default {
       show1: false,
       loading: false,
       user: {
-        email_address: '',
-        password: ''
+        email_address: 'testuser@app.com',
+        password: 'Password123'
       }
     }
   },

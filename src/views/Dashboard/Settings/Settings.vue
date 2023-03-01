@@ -144,7 +144,7 @@
 
 <style scoped>
 .app {
-  font-family: "Encode Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.3;
   margin: 0px;
